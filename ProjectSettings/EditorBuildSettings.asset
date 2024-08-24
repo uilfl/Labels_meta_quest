@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Dystopia.unity
+    guid: 98f110fad34bfa04497f76572115ccfc
+  - enabled: 1
+    path: Assets/Scenes/Utopia.unity
+    guid: 69155f859664f624bae09767b10f97d0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d9665d5c8df2e4014a5a9ec1fc03c614, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 3373087469fdd4556847514a40bda548, type: 2}
