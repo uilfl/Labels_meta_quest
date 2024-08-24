@@ -16,6 +16,7 @@ public class ButterflyMovement : MonoBehaviour
         ChangeDirection();
     }
 
+    // Movement Period
     void Update()
     {
         timer += Time.deltaTime;
@@ -28,6 +29,7 @@ public class ButterflyMovement : MonoBehaviour
         CheckBounds();
     }
 
+    // Direction Change
     void ChangeDirection()
     {
         direction = new Vector3(
@@ -37,6 +39,7 @@ public class ButterflyMovement : MonoBehaviour
         ).normalized;
     }
 
+    // Change directions as hitting boundaries
     void CheckBounds()
     {
         Vector3 position = transform.position;
